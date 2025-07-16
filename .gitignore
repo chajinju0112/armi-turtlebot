@@ -1,0 +1,43 @@
+# --------------------
+# Python
+# --------------------
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --------------------
+# ROS2 (colcon build)
+# --------------------
+build/
+install/
+log/
+*.launch.py~
+*.db3  # navigation2 등에서 생성하는 SQLite 맵 로그
+
+# --------------------
+# Editor settings
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# OS-generated
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# GitHub Desktop / SourceTree
+# --------------------
+*.orig
+*.bak
+*.rej
